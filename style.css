@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+i{
+    cursor: pointer;
+}
+ /* Navbar CSS */
+
+.navbar{
+    background-color: black;
+    color: white;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navLeft{
+    margin-right: auto;
+}
+.navLeft img{
+    display: inline;
+    height: 60px;
+}
+.navLeft p{
+    display: inline;
+    text-align: center;
+}
+.navCenter{
+    list-style-type: none;
+    margin: auto;
+}
+.navCenter ul li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.navRight{
+    padding-top: 20px;
+    padding-right: 40px;
+    margin-left: auto;
+}
+.navRight input{
+    padding: 5px;
+}
+.navRight {
+    position:relative;
+}
+   
+.navRight i {
+    position:absolute;
+    right:35px;
+    top:16px;
+    padding:10px;
+    color: black;
+}
+
+/* Body Css */
+/* Container1 : */
+.container{
+    display: flex;
+    text-align: start;
+    padding: 40px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: auto;
+    width: 40%;
+}
+.info h1{
+    font-size: 80px;
+    padding: 20px;
+}
+.info p{
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.info button{
+    padding: 10px 20px;
+}
+.dmBtn{
+    background-color: rgb(141, 110, 171);
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.btn{
+    display: block;
+    margin-right:auto;
+    padding-bottom: 100px;
+    padding-left: 20px;
+}
+.btn2{
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.socials p{
+    display: inline;
+    font-size: 15px;
+}
+.socials a{
+    border: 2px solid rgb(204, 203, 203);
+    background-color: rgb(201, 201, 201);
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.socials i{
+    padding-right: 10px;
+}
+.img1{
+    padding-right: 20px;
+}
+
+/* Container2 : */
+.container2{
+    background-color:#fada6c;
+    display: flex;
+    text-align: start;
+    height: 100vh;
+    padding: 40px;
+}
+.info2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    width: 40%;
+}
+.info2 h1{
+    word-spacing: 10px;
+    font-size: 80px;
+    padding: 20px;
+}
+.info2 p{
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+}
+.container2 img{
+    margin: auto;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.section{
+    border-top: 3px solid black;
+    padding-right: 40px;
+}
+.section p{
+    padding-top: 10px;
+}
+.section h1{
+    word-spacing: 10px;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.section i{
+    margin-left: 90%;
+    margin-bottom: 5%;
+    color: rgb(141, 110, 171);
+}
+
+/* Container3 : */
+.container3{
+    display: flex;
+    text-align: start;
+    height: 100vh;
+    padding: 40px;
+}
+.info3{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    width: 40%;
+}
+.info3 h1{
+    word-spacing: 10px;
+    font-size: 80px;
+    padding: 20px;
+}
+.info3 p{
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+.info3 i{
+    padding-top: 20px;
+}
+.info3 .skill{
+    font-size: 50px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+}
+.column2 .comp{
+    padding-bottom: 10px;
+}
+.section2{
+    border-top: 3px solid black;
+    padding-right: 40px;
+}
+.section2 p{
+    padding-top: 10px;
+}
+
+.section2 i{
+    font-size: large;
+}
+
+/* Container4 : */
+.container4{
+    background-color:#fada6c;
+    display: flex;
+    text-align: start;
+    height: 90vh;
+    padding: 40px;
+}
+.info4{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    width: 40%;
+}
+.info4 h1{
+    word-spacing: 10px;
+    font-size: 80px;
+    padding: 20px;
+}
+.info4 i{
+    color: white;
+    padding: 40px 0;
+    padding-right: 20px;
+}
+.info4 p{
+    display: inline;
+    font-size: 20px;
+    padding-right: 30px;
+}
+.class{
+    padding-bottom: 10px;
+}
+.column3{
+    display: flex;
+    flex-direction: column;
+}
+.section3{
+    border-top: 3px solid black;
+    padding-right: 40px;
+}
+
+
+/* Footer : */
+footer{
+    background-color:#fada6c;
+    padding: 40px;
+    height: 10vh;
+}
+.footer{
+    display: flex;
+    padding: 40px;
+    border-top: 3px solid black;
+}
+.footer p{
+    margin-right: auto;
+}
